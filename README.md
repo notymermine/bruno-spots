@@ -7,7 +7,7 @@ BrunoSpots is a React app I developed to help Brown students find libraries, qui
 2. cd bruno-spots
 3. npm install
 4. npm run dev
-5. Open http://localhost:5173 (or the URL shown in your terminal) in your browser.
+5. Open http://localhost:3000 (or the URL shown in your terminal) in your browser.
 
 ## Personal Contribution
 I built BrunoSpots using React, TypeScript, and a bit of Tailwind CSS as a fully client-side application without any backend functions. I structured the UI around a <SpotCard />  child component that receives spot details, favourite statues, and click callbacks through props. I stored the raw filter parameters (category, searchQuery, and boolean) in useState and derived the displayed spots on each render cycle using Array.prototype.filter(). For user interactions, I added a bookmarking system that updates an array of IDs using the spread operator [...prev, id] and .filter(). There is also a 'Surprise Me' function that randomly samples a spot using Math.floor(Math.random() * pool.length)and navigates the location to it using scrollIntoView({ behavior: 'smooth' }).
