@@ -1,0 +1,6 @@
+{
+  "name": "BrunoSpots - Brown Study & Chill Finder",
+  "description": "Discover study spots, cafes, and chill zones around Brown University's College Hill based on vibe, noise level, and amenities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
